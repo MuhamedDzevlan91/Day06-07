@@ -1,0 +1,37 @@
+div.gallery {
+    margin: 5px;
+    border: 1px solid white;
+    float: left;
+    width: 350px;
+  }
+  
+  
+  div.gallery img {
+    width: 350px;
+    height: 300px;
+    align-self: center;
+    transition: width 2s, height 4s;
+    
+  }
+  
+  div.desc {
+    padding: 5px;
+    text-align: left;
+    color: lightblue;
+  }
+
+  #container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 55px;
+}
+
+  p{
+      text-align: justify;
+      
+  }
+
+
+
+  
+
